@@ -1,0 +1,8 @@
+.centered-modal .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.green-button{
+    background-color: #4cd608
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "eventName": "100 meters",
+    "basePoints": 25.4347,
+    "resultMultiplier": 18,
+    "resultExponent": 1.81
+  },
+  {
+    "eventName": "Long jump",
+    "basePoints": 0.14354,
+    "resultMultiplier": 220,
+    "resultExponent": 1.4
+  },
+  {
+    "eventName": "Shot put",
+    "basePoints": 51.39,
+    "resultMultiplier": 1.5,
+    "resultExponent": 1.05
+  },
+  {
+    "eventName": "High jump",
+    "basePoints": 0.8465,
+    "resultMultiplier": 75,
+    "resultExponent": 1.42
+  },
+  {
+    "eventName": "400 meters",
+    "basePoints": 1.53775,
+    "resultMultiplier": 82,
+    "resultExponent": 1.81
+  },
+  {
+    "eventName": "110 meters hurdles",
+    "basePoints": 5.74352,
+    "resultMultiplier": 28.5,
+    "resultExponent": 1.92
+  },
+  {
+    "eventName": "Discus throw",
+    "basePoints": 12.91,
+    "resultMultiplier": 4,
+    "resultExponent": 1.1
+  },
+  {
+    "eventName": "Pole vault",
+    "basePoints": 0.2797,
+    "resultMultiplier": 100,
+    "resultExponent": 1.35
+  },
+  {
+    "eventName": "Javelin throw",
+    "basePoints": 10.14,
+    "resultMultiplier": 7,
+    "resultExponent": 1.08
+  },
+  {
+    "eventName": "1500 meters",
+    "basePoints": 0.03768,
+    "resultMultiplier": 480,
+    "resultExponent": 1.85
+  }
+]

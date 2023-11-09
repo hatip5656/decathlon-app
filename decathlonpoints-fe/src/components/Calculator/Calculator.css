@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    color: #ffff;
+    height: 7vh;
+    padding-inline: 50px;
+    line-height: 64px;
+    background-color: #7dbcea,
+}
+
+.content {
+    padding-top: 20vh;
+    height: 100%;
+}
+
+.green-button{
+    background-color: #4cd608
+}
