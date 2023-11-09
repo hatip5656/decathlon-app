@@ -41,13 +41,6 @@ function Calculator() {
             setCalculationError( { error: e.response.data.errorMessage, errorState: true } )
         } );
     };
-    const getOptions = () => {
-        return events.map( ( event ) => (
-            <Option key={ event.eventName } value={ event.eventName }>
-                { event.eventName }
-            </Option>
-        ) );
-    }
     const validateScore = ( rule, value ) => {
         if ( isNaN( value ) ) {
             setScoreError( 'Please enter a valid number' );
@@ -88,7 +81,10 @@ function Calculator() {
                                     onChange={ onEventNameChange }
                                     allowClear
                                 >
-                                    { getOptions() }
+                                    { events.map( ( event ) => (
+                                        <Option key={ event.eventName } value={ event.eventName }>
+                                            { event.eventName }
+                                        </Option> ))}
                                 </Select>
                             </Form.Item>
                             <Form.Item
